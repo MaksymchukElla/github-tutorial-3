@@ -10,25 +10,31 @@
             <link
                 href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
                 rel="stylesheet">
+            <link 
+              rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+             />    
             <link rel="stylesheet" href="./css/styles.css"/>
         </head>
         <body>
-            <header>
+            <header class="page-header">
+                <div class="container">
                 <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
                 <nav>
                     <ul class="site-nav list">
-                      <li><a href="./index.html" class="link">Студія</a></li>
-                      <li><a href="./portfolio.html" class="link-current">Портфоліо</a></li>
-                      <li><a href="" class="link">Контакти</a></li>
+                      <li class="item"><a href="./index.html" class="link">Студія</a></li>
+                      <li class="item"><a href="./portfolio.html" class="link-current">Портфоліо</a></li>
+                      <li class="item"><a href="" class="link">Контакти</a></li>
                     </ul>
                 </nav>
                 <ul class="contakt list">
                     <li><a href="mailto:info@devstudio.com" class="contakt-link">info@devstudio.com</a></li>
                     <li><a href="tel.:+380961111111" class="contakt-type">+38 096 111 11 11</a></li>
                 </ul>
+                </div>
             </header>
             <main>
                 <!--Герой-->
+                <div class="container">
              <section>  
                  <div>
                      <button type="button" class="button-type">Усі</button>
@@ -37,7 +43,7 @@
                      <button type="button" class="button-type">Дизайн</button>
                      <button type="button" class="button-type">Маркетинг</button>               
                  </div>
-                  <ul>
+                  <ul class="list">
                      <li>
                          <img src="./images/img8.jpg" alt="Технокряк" width="370">
                          <h2 class="project-name">Технокряк</h2>
@@ -85,17 +91,20 @@
                      </li>
                    </ul>
                 </section> 
+                </div>
             </main>
             <footer>
+                <div class="container">
                 <section class="part">
                     <a href="./index.html" class="logo"><span class="accent">Web</span><span class="studio">Studio</span></a>
                     <address class="info">
-                        м. Київ, пр-т Лесі Українки, 26
+                        <h2 class="info-text">м. Київ, пр-т Лесі Українки, 26</h2>
                         <ul class="info list">
                             <li><a href="mailto:info@devstudio.com" class="info-link">info@devstudio.com</a></li>
                             <li><a href="tel.:+380961111111" class="info-link">+38 096 111 11 11</a></li>
                         </ul>
                     </address>
+                    </div>
                 </section>
             </footer>
         </body>
