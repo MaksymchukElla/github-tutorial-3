@@ -10,14 +10,14 @@
             <link
                 href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
                 rel="stylesheet">
-            <link 
-              rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-             />    
+             <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+                integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="/>
             <link rel="stylesheet" href="./css/styles.css"/>
         </head>
         <body>
             <header class="page-header">
-                <div class="container">
+                <div class="container main">
                 <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
                 <nav>
                     <ul class="site-nav list">
@@ -27,67 +27,104 @@
                     </ul>
                 </nav>
                 <ul class="contakt list">
-                    <li><a href="mailto:info@devstudio.com" class="contakt-link">info@devstudio.com</a></li>
-                    <li><a href="tel.:+380961111111" class="contakt-type">+38 096 111 11 11</a></li>
+                    <li class="item"><a href="mailto:info@devstudio.com" class="contakt-link">info@devstudio.com</a></li>
+                    <li class="item"><a href="tel.:+380961111111" class="contakt-type">+38 096 111 11 11</a></li>
                 </ul>
                 </div>
             </header>
             <main>
                 <!--Герой-->
                 <div class="container">
-             <section>  
-                 <div>
-                     <button type="button" class="button-type">Усі</button>
-                     <button type="button" class="button-type">Веб-сайти</button>
-                     <button type="button" class="button-type">Додатки</button>
-                     <button type="button" class="button-type">Дизайн</button>
-                     <button type="button" class="button-type">Маркетинг</button>               
-                 </div>
-                  <ul class="list">
-                     <li>
-                         <img src="./images/img8.jpg" alt="Технокряк" width="370">
-                         <h2 class="project-name">Технокряк</h2>
-                         <p class="project-link">Веб-сайт</p>
+               <section>  
+                        <ul class="button-list">
+                            <button type="button" class="button-type">Усі</button>
+                            <button type="button" class="button-type">Веб-сайти</button>
+                            <button type="button" class="button-type">Додатки</button>
+                            <button type="button" class="button-type">Дизайн</button>
+                            <button type="button" class="button-type">Маркетинг</button> 
+                        </ul>
+                                      
+                  <ul class="card-set">
+                     <li class="list-card">
+                         <div class="card-tumb">
+                             <img src="./images/img8.jpg" alt="Технокряк" width="370">
+                         </div>
+                         <div class="card-desk">
+                             <h2 class="project-name">Технокряк</h2>
+                             <p class="project-link">Веб-сайт</p>
+                        </div>
                      </li>
-                     <li>
-                         <img src="./images/img9.jpg" alt="Постер" width="370">
-                         <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-                         <p class="project-link">Дизайн</p>
+                     <li class="list-card">
+                         <div class="card-tumb">
+                             <img src="./images/img9.jpg" alt="Постер" width="370">
+                         </div>
+                         <div class="card-desk">
+                             <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
+                             <p class="project-link">Дизайн</p>
+                         </div>
                      </li>
-                     <li>
-                         <img src="./images/img10.jpg" alt="Ресторан Seafood" width="370">
-                         <h2 class="project-name">Ресторан Seafood</h2>
-                         <p class="project-link">Додаток</p>
+                     <li class="list-card">
+                          <div class="card-tumb">
+                             <img src="./images/img10.jpg" alt="Ресторан Seafood" width="370">
+                          </div>
+                          <div class="card-desk">
+                             <h2 class="project-name">Ресторан Seafood</h2>
+                             <p class="project-link">Додаток</p>
+                          </div>
                      </li>
-                     <li>
-                         <img src="./images/img11.jpg" alt="Проєкт Prime" width="370">
-                         <h2 class="project-name">Проєкт Prime</h2>
-                         <p class="project-link">Маркетинг</p>
+                     <li class="list-card">
+                           <div class="card-tumb"> 
+                             <img src="./images/img11.jpg" alt="Проєкт Prime" width="370">
+                          </div>
+                          <div class="card-desk">
+                             <h2 class="project-name">Проєкт Prime</h2>
+                             <p class="project-link">Маркетинг</p>
+                          </div>
                      </li>
-                     <li>
-                         <img src="./images/img12.jpg" alt="Проєкт Boxes" width="370">
-                         <h2 class="project-name">Проєкт Boxes</h2>
-                         <p class="project-link">Додаток</p>
+                     <li class="list-card">
+                         <div class="card-tumb"> 
+                             <img src="./images/img12.jpg" alt="Проєкт Boxes" width="370">
+                         </div>
+                         <div class="card-desk">
+                             <h2 class="project-name">Проєкт Boxes</h2>
+                             <p class="project-link">Додаток</p>
+                         </div>
                      </li>
-                     <li>
-                         <img src="./images/img13.jpg" alt="Inspiration has no Borders" width="370">
-                         <h2 class="project-name">Inspiration has no Borders</h2>
-                         <p class="project-link">Веб-сайт</p>
+                     <li class="list-card">
+                         <div class="card-tumb"> 
+                             <img src="./images/img13.jpg" alt="Inspiration has no Borders" width="370">
+                          </div>
+                          <div class="card-desk">
+                             <h2 class="project-name">Inspiration has no Borders</h2>
+                             <p class="project-link">Веб-сайт</p>
+                         </div>
                      </li>
-                     <li>
-                         <img src="./images/img14.jpg" alt="Видання Limited Edition" width="370">
-                         <h2 class="project-name">Видання Limited Edition</h2>
-                         <p class="project-link">Дизайн</p>
+                     <li class="list-card">
+                         <div class="card-tumb"> 
+                             <img src="./images/img14.jpg" alt="Видання Limited Edition" width="370">
+                         </div>
+                         <div class="card-desk">
+                             <h2 class="project-name">Видання Limited Edition</h2>
+                             <p class="project-link">Дизайн</p>
+                         </div>
                      </li>
-                     <li>
-                         <img src="./images/img15.jpg" alt="Проєкт LAB" width="370">
-                         <h2 class="project-name">Проєкт LAB</h2>
-                         <p class="project-link">Маркетинг</p>
+                     <li class="list-card">
+                         <div class="card-tumb"> 
+                             <img src="./images/img15.jpg" alt="Проєкт LAB" width="370">
+                         </div>
+                         <div class="card-desk">
+                             <h2 class="project-name">Проєкт LAB</h2>
+                             <p class="project-link">Маркетинг</p>
+                         </div>
                      </li>
-                     <li>
-                         <img src="./images/img16.jpg" alt="Growing Business" width="370">
-                         <h2 class="project-name">Growing Business</h2>
-                         <p class="project-link">Додаток</p>
+                     <li class="list-card">
+                         <div class="card-tumb"> 
+                             <img src="./images/img16.jpg" alt="Growing Business" width="370">
+                         </div>
+                         <div class="card-desk">
+                             <h2 class="project-name">Growing Business</h2>
+                             <p class="project-link">Додаток</p>
+                         </div>
                      </li>
                    </ul>
                 </section> 
