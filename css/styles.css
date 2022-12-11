@@ -45,7 +45,12 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid brown;
+  /* outline: 2px solid brown; */
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Шапка */
@@ -53,6 +58,7 @@ p {
 .main {
   display: flex;
   height: 80px;
+  border: 1px solid #ECECEC;
 }
 
 .logo {
@@ -61,7 +67,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1,2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -85,7 +91,7 @@ p {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -119,7 +125,7 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contakt-link:focus,
@@ -133,7 +139,7 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14px;
+  line-height: 1.14px;
   letter-spacing: 0.02em;
 }
 .contakt-type:focus,
@@ -152,7 +158,8 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.section {
+.section-heder {
+  background-color: var(--title-background-color);
   text-align: center;
 }
 .section-title {
@@ -162,27 +169,26 @@ p {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1,36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .button {
   display: inline-block;
-  padding: 11px, 24px;
   min-width: 152px;
   border-radius: 4px;
+  padding: 11px, 24px;
 
   color: var(--primary-white-color);
   background: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1,88;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  
 }
 
 .button:hover,
@@ -191,11 +197,7 @@ p {
   background-color: var(--accent-color);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--title-background-color);
-}
+
 
 /* Наші переваги */
 
@@ -216,7 +218,7 @@ p {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -225,7 +227,7 @@ p {
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -236,12 +238,6 @@ p {
 
 .list-benefits .blok {
   width: 380px;
-  
-}
-
-.benefits {
-  padding-top: 94px;
-  padding-bottom: 94px; 
 }
 
 /* Чим ми займаємось */
@@ -253,14 +249,9 @@ p {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-}
-.subtitle {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  
 }
 
 .subtitle-main {
@@ -276,9 +267,9 @@ p {
 }
 
 .subtitle-main > .subtitle-list {
-  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 .subtitle-list {
   list-style: none; 
@@ -288,8 +279,6 @@ p {
 
 .team {
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-main {
@@ -299,7 +288,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-right: calc(-1*30); 
+  margin-left: calc(-1*30);
   margin-top: calc(-1*30);
 }
 
@@ -326,7 +315,7 @@ p {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -337,7 +326,7 @@ p {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -349,7 +338,7 @@ p {
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
  }
@@ -411,7 +400,6 @@ p {
 }
 
 .button-list {
-  padding-top: 94px;
   padding-bottom: 56px;
   padding-left: 0px;
   display: flex;
@@ -447,7 +435,6 @@ p {
   list-style: none;
   flex-wrap: wrap;
   display: flex;
-  padding-bottom: 94px;
 }
 
 .list-card  {
