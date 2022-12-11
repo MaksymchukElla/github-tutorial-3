@@ -61,7 +61,7 @@ section {
 }
 
 .page-header {
-  border: 1px solid #ECECEC;
+  border-botton: 1px solid #ECECEC;
 }
 
 .logo {
@@ -169,7 +169,7 @@ section {
 
 .content {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .section-title {
   margin-top: 0;
